@@ -9,18 +9,3 @@ This project implements a multi-agent deep reinforcement learning (MARL) system 
 - **RQ3**: Can the framework adapt under distribution shift while preserving fairness?
 - **RQ4**: What is the impact on thin-file inclusion, expected loss, and profitability?
 
-## Architecture Highlights
-- 4 Specialized Agents: Income, Behavior, Macro, Compliance
-- Attention-based Coordinator
-- Multi-level Credit Assignment (MACA)
-- 1D CNN Encoder + DeepSVDD anomaly filter
-- Full explainability via attention weights
-
-
-
-## Key Notebooks
-- `03_CNN_Encoder.ipynb` → CNN + DeepSVDD
-- `07_Multi_Agent_Training.ipynb` → Specialized Agents + MACA training
-- `08_MARL_vs_Baselines.ipynb` → Full comparison & ablation
-- `09_Adaptation_Fairness.ipynb` → Shift + fairness
-- `10_Business_Metrics.ipynb` → Inclusion & loss metrics
