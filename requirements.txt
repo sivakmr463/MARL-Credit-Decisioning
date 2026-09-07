@@ -1,12 +1,40 @@
-numpy>=1.24
-pandas>=2.0
-scikit-learn>=1.3
-matplotlib>=3.7
-seaborn>=0.12
-torch>=2.0
-xgboost>=1.7
-pathlib
-tqdm
-jupyter
-notebook
-ipykernel
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "nUmwFeTQHFIl"
+      },
+      "outputs": [],
+      "source": [
+        "numpy>=1.26\n",
+        "pandas>=2.1\n",
+        "scikit-learn>=1.4\n",
+        "matplotlib>=3.8\n",
+        "seaborn>=0.13\n",
+        "torch>=2.2\n",
+        "xgboost>=2.0\n",
+        "joblib>=1.3\n",
+        "scipy>=1.11\n",
+        "tqdm>=4.66\n",
+        "jupyter\n",
+        "ipykernel"
+      ]
+    }
+  ]
+}
